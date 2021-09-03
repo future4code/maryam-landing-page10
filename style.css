@@ -9,7 +9,8 @@
 }
 /* fonte cabecalho */
 header h1 {
-    font-family: Besley-italic;
+    color:gray;
+    font-size: small;
 }
 /* calecalho */
 header img {
@@ -80,6 +81,17 @@ header img {
     padding: 7px;
     text-align: justify;
     font-family: Besley-italic;
+    align-items: center;
+    }
+    
+    p{
+        text-align: center;
+        text-decoration: #a3410c;
+    }
+
+    .corPalavra4food {
+        color:maroon;
+        font-stretch: ultra-condensed;
     }
 /* recipiente */
 .container {
@@ -107,6 +119,7 @@ main {
     font-size: 18px;
     text-align: center;
     text-decoration: #582E17;
+    
 }
 
 /* Footer */
