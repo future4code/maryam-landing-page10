@@ -35,7 +35,7 @@ header img {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 100vw;
 }
 
@@ -83,19 +83,18 @@ header img {
 
 .container {
     display: grid;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin-top: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25vh 10vh 1fr 10vh;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main {
     display: grid;
     grid-template-columns: 30vw 1fr;
     grid-template-rows: 1fr;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
     gap: 10px;
     width: 98vw;
 }
@@ -104,12 +103,10 @@ main {
 
 footer {
     background-color: #C1B4AC;
+    align-self: flex-end;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    bottom: 0;
-    left: 0;
-    right: 0;
     width: 100vw;
 }
 
@@ -156,6 +153,7 @@ footer img {
         grid-template-rows: 25vh 10vh 1fr 10vh;
         justify-items: center;
         align-items: center;
+        width: 95vw;
     }
 
     footer {
