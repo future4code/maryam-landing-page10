@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    src: url(./fonte/Besley-Italic.ttf);
+    font-family: 'Besley-italic';
+}
+
+header h1 {
+    font-family: Besley-italic;
+}
+
+header img {
+    width: 256px;
+    height: 256px;
+}
+
+.logo {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav {
+    background-color: #C1B4AC ;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    width: 100vw;
+}
+
+.nav a {
+    background-color: #C1B4AC;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: #8A6F5F;
+}
+
+.nav a:active {
+    background-color: #582E17;
+    color: white;
+}
+
+.imagemPrincipal {
+    height: 40vh;
+    background-color: tomato;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu a {
+    border: 2px solid white;
+    background-color: rgb(219, 184, 171);
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+
+.conteudo {
+    background-color: #ffffff;
+    padding: 7px;
+    text-align: justify;
+    }
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30vw 1fr;
+    grid-template-rows: 1fr;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    gap: 10px;
+    width: 98vw;
+}
+
+/* Footer  */
+
+footer {
+    background-color: #C1B4AC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+}
+
+/* Ícones das redes sociais  */
+
+footer img {
+    height: 25px;
+    width: 25px;
+    margin: 8px;
+}
