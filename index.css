@@ -157,4 +157,8 @@ footer img {
         justify-items: center;
         align-items: center;
     }
+
+    footer {
+        align-self: end;
+    }
 }
