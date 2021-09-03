@@ -101,6 +101,7 @@ main {
 }
 
 /* Footer  */
+
 footer {
     background-color: #C1B4AC;
     display: flex;
@@ -110,10 +111,10 @@ footer {
     left: 0;
     right: 0;
     width: 100vw;
-
 }
 
 /* Ícones das redes sociais  */
+
 footer img {
     height: 25px;
     width: 25px;
