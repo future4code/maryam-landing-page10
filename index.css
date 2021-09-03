@@ -120,3 +120,41 @@ footer img {
     width: 25px;
     margin: 8px;
 }
+
+/* breakpoint para celulares */
+@media screen and (min-device-width : 320px) and (max-device-width : 414px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50vh;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo img {
+        height: 168px;
+        width: 168px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25vh 10vh 1fr 10vh;
+        justify-items: center;
+        align-items: center;
+    }
+}
