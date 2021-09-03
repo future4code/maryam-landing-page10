@@ -1,11 +1,17 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+
 }
 
 @font-face {
     src: url(./fonte/Besley-Italic.ttf);
     font-family: 'Besley-italic';
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1 {
@@ -49,6 +55,9 @@ header img {
 
 .nav a:hover {
     background-color: #8A6F5F;
+    border-radius:50%;
+    transition: 300ms;
+    color: #e6d6cc;
 }
 
 .nav a:active {
@@ -78,8 +87,37 @@ header img {
 .conteudo {
     background-color: #ffffff;
     padding: 7px;
+    text-align: center;
+}
+
+.conteudo>h2 {
+    text-align: center;
+}
+
+.proposito {
+    width: 40%;
+    height: 45%;
+    border-radius: 50%;
+}
+
+.texto {
     text-align: justify;
-    }
+    text-indent: 4em;
+}
+
+.texto>b{
+    border-bottom: 1px dotted black;
+}
+
+.texto>b:hover {
+    cursor: help;
+}
+
+.legenda-mini {
+    text-align: center;
+    color: gray;
+    font-size: small;
+}
 
 .container {
     display: grid;
@@ -104,13 +142,12 @@ main {
 footer {
     background-color: #C1B4AC;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100vw;
-
+    position: sticky;
+    flex-direction: row;
 }
 
 /* Ícones das redes sociais  */
