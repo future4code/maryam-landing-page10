@@ -1,3 +1,4 @@
+/* Root */
 * {
     padding: 0;
     margin: 0;
@@ -5,24 +6,29 @@
 
 }
 
+/* Importar fonte do título */
 @font-face {
     src: url(./fonte/Besley-Italic.ttf);
     font-family: 'Besley-italic';
 }
 
+/* Body total da página */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* h1 do header */
 header h1 {
     font-family: Besley-italic;
 }
 
+/* Logotipo: imagem */
 header img {
     width: 256px;
     height: 256px;
 }
 
+/* div do logotipo */
 .logo {
     width: 100vw;
     height: 25vh;
@@ -33,6 +39,7 @@ header img {
     justify-content: center;
 }
 
+/* Barra de navegação */
 .nav {
     background-color: #C1B4AC ;
     width: 100vw;
@@ -45,6 +52,7 @@ header img {
     width: 100vw;
 }
 
+/* Links da nav */
 .nav a {
     background-color: #C1B4AC;
     padding: 5px;
@@ -53,6 +61,7 @@ header img {
     color: black;
 }
 
+/* Mouse em cima dos links da nav */
 .nav a:hover {
     background-color: #8A6F5F;
     border-radius:50%;
@@ -60,22 +69,20 @@ header img {
     color: #e6d6cc;
 }
 
+/* Mouse clicando em cima dos links da nav */
 .nav a:active {
     background-color: #582E17;
     color: white;
 }
 
-.imagemPrincipal {
-    height: 40vh;
-    background-color: tomato;
-}
-
+/* Menu lateral */
 .menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
+/* Links do menu lateral */
 .menu a {
     border: 2px solid white;
     background-color: rgb(219, 184, 171);
@@ -84,7 +91,7 @@ header img {
     padding: 25px;
 }
 
-/* Efeito super maneirão do menu */
+/* Efeito super maneirão dos links do menu lateral */
 .menu a:hover {
     -webkit-animation-name: tada;
   animation-name: tada;
@@ -138,41 +145,49 @@ header img {
   }
 }
 
+/* div do conteúdo principal */
 .conteudo {
     background-color: #ffffff;
     padding: 7px;
     text-align: center;
 }
 
+/* h2 do conteúdo principal */
 .conteudo>h2 {
     text-align: center;
 }
 
+/* Imagens do conteúdo principal */
 .proposito {
     width: 40%;
     height: 45%;
     border-radius: 50%;
 }
 
+/* Parágrafo do conteúdo principal */
 .texto {
     text-align: justify;
     text-indent: 4em;
 }
 
+/* Negrito do conteúdo principal */
 .texto>b{
     border-bottom: 1px dotted black;
 }
 
+/* Mouse sobre o negrito no conteúdo principal */
 .texto>b:hover {
     cursor: help;
 }
 
+/* Legenda cinza das imagens */
 .legenda-mini {
     text-align: center;
     color: gray;
     font-size: small;
 }
 
+/* Container do layout */
 .container {
     display: grid;
     justify-content: center;
@@ -181,6 +196,7 @@ header img {
     margin-top: 20px;
 }
 
+/* Grid principal */
 main {
     display: grid;
     grid-template-columns: 30vw 1fr;
