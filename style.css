@@ -6,11 +6,12 @@
 @font-face {
     src: url(./fonte/Besley-Italic.ttf);
     font-family: 'Besley-italic';
+    
 }
 /* fonte cabecalho */
 header h1 {
     color:gray;
-    font-size: small;
+    
 }
 /* calecalho */
 header img {
