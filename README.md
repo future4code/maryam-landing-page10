@@ -2,7 +2,7 @@
 
 **Turma:** Maryam (integral)
 
-**Integrantes:** Maria Helena V. C. de Souza (@mhsouza88), Patrícia Dias Baldez (@Patriciabadez), Gabriel Luiz Gonçalves (@Gabriel-Goncalves47).
+**Integrantes:** Maria Helena V. C. de Souza (@mhsouza88), Patrícia Dias Baldez (@Patriciabadez) e com colaboração de Gabriel Luiz Gonçalves (@Gabriel-Goncalves47) na etapa inicial do projeto.
 
 **Surge:** https://statuesque-fork.surge.sh/
 
