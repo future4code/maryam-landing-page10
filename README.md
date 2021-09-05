@@ -1,15 +1,14 @@
-# Projeto 4FOOD
+# Projeto 4FOOD 🧁
 
-👷  EM CONSTRUÇÃO! 👷‍♀️
+**Turma:** Maryam (integral)
 
+**Integrantes:** Maria Helena V. C. de Souza (@mhsouza88), Patrícia Dias Baldez (@Patriciabadez), Gabriel Luiz Gonçalves (@Gabriel-Goncalves47).
 
-
-**Surge:** https://adjoining-taste.surge.sh/
+**Surge:** https://statuesque-fork.surge.sh/
 
 **Prints:** 
-![print2](https://user-images.githubusercontent.com/88038506/131920791-67c1c0f0-27de-408b-a012-bd97a6860935.png)
+![final](https://user-images.githubusercontent.com/88038506/132110760-564dd89b-e7dc-4f0b-b6a6-33863eedae08.png)
+![final02](https://user-images.githubusercontent.com/88038506/132110763-5f119bae-6365-46d0-a166-f7ee8f3603d8.png)
 
-![print](https://user-images.githubusercontent.com/88038506/131919832-90bbc91f-6a9f-428f-82fe-054598a1b5ac.png)
-![print3](https://user-images.githubusercontent.com/88038506/131920809-386e0920-a4f0-4ee3-84b7-c5f432bdca83.png)
 
 
