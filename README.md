@@ -1,4 +1,4 @@
-# Projeto 4FOOD 🧁
+# projeto 4FOOD 🧁
 
 **Turma:** Maryam (integral)
 
